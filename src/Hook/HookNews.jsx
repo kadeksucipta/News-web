@@ -102,7 +102,7 @@ const HookNews = () => {
             {newsapi?.length === 0 && (
               <p className="text">Maaf berita tidak ditemukan</p>
             )}
-            {newsapi.map((item, index) => (
+            {newsapi?.map((item, index) => (
               <Col key={index}>
                 {" "}
                 <Card className="h-100">
