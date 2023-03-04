@@ -1,0 +1,62 @@
+.navbar {
+  background: #005559;
+}
+  
+.jarak {
+    padding: 15px 15px 15px 15px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.card-group {
+    gap: 20px;
+    display: flex;
+    margin-left: 7%;
+    width: 86%;
+}
+
+
+.btn {
+    background: rgb(0, 136, 82);
+    color: white;
+    float: left;
+}
+
+.btn:hover {
+  background: rgb(0, 136, 82);
+  color: white;
+  margin: 2px;
+}
+
+img{
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+.custom-loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: conic-gradient(#0000 10%, #007375);
+    -webkit-mask: radial-gradient(
+      farthest-side,
+      #0000 calc(100% - 8px),
+      #000 0
+    );
+    animation: s3 1s infinite linear;
+  }
+  @keyframes s3 {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+.text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
